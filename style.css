@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Background behind the box */
+/* Background behind the box */
+.outer-background {
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Box containing the content */
+  .content-box {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 30px;
+    width: 100%;
+    max-width: 600px; /* Limit the width */
+  }
+  
+  /* Center align Title and Paragraph */
+  h1, p {
+    text-align: center;
+    color: #333; /* Dark text */
+  }
+  
+  /* Search Section */
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  .search-image {
+    width: 80px; /* Adjust size of the image */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group input {
+    border-radius: 0; /* Keep input squared */
+  }
+  
+  .input-group .btn {
+    border-radius: 0; /* Match button shape with input */
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .input-group .btn:hover {
+    background-color: #0056b3;
+  }
+  
